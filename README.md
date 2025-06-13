@@ -38,6 +38,21 @@ Frontend: http://localhost:5173
 
 Backend API: http://localhost:5000/api/wishlist
 
+### Struktur file
+```bash
+bookfinder/
+├── backend/           # Backend Express + MongoDB
+│   ├── app.js
+│   ├── models/
+│   └── ...
+├── frontend/          # Frontend Vite + React + Tailwind + TypeScript
+│   ├── src/
+│   ├── Dockerfile
+│   └── ...
+├── docker-compose.yml # Untuk menjalankan semuanya sekaligus
+└── README.md
+```
+
 ### Opsional Perintah
 
 ```bash
